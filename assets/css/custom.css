@@ -26,6 +26,23 @@ ul.actions {
   margin-top: 2em;
 }
 
+.wa{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 48px;
+  height: 48px;
+  z-index: 99999;
+}
+.wa a{
+  text-decoration: none;
+  border: none;
+}
+.wa img {
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (max-width: 960px) {
   #header {
     height: 56px !important;
@@ -33,5 +50,10 @@ ul.actions {
   
   .map{
     width: 100% !important;
+  }
+
+  .wa{
+    width: 36px;
+    height: 36px;
   }
 }
